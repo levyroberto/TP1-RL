@@ -16,7 +16,7 @@ const arrBTransformado = transformarStringEnArrayDeNumeros(setB, ',')
 
 // combino los primeros dos arrays
 const arrABcombinados = combinarDosArrays(arrATransformado, arrBTransformado)
-   // console.log(arrABcombinados)
+    console.log(arrABcombinados)
 
 // preparo los otros dos arrays a partir de los archivos leídos
 const arrImparesTransformado = transformarStringEnArrayDeNumeros(impares, ',')
@@ -24,7 +24,7 @@ const arrParesTransformado = transformarStringEnArrayDeNumeros(pares, ',')
 
 // combino los segundos dos arrays
 const arrCombinados = combinarDosArrays(arrImparesTransformado, arrParesTransformado)
-   // console.log(arrCombinados)
+    console.log(arrCombinados)
 
 // combino los cuatro arrays
 const arrFinal = combinarNArrays([arrABcombinados, arrCombinados])
